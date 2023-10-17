@@ -126,7 +126,19 @@ nav#nav-menu {
   z-index: 1;
 }
 
-ul#nav-menu-list {
+
+div.nav-menu-container {
+  display: block;
+
+
+
+}
+
+
+
+
+
+ul.nav-menu-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -209,9 +221,13 @@ a {
   }
 }
 
+svg.close {
+  display: none;
+}
 
 
 
+/*///////////*********/
 section {
 
 
@@ -1193,7 +1209,12 @@ footer {
     position: relative;
   }
 
-  div#nav-menu-container {
+  ul.nav-menu-list {
+    display: none;
+  }
+
+  div.collapse1 {
+
     position: absolute;
     top: 54.4px;
     box-shadow: inset 1px 1px 2px var(--color-shadow), inset -1px -1px 2px var(--color-white);
@@ -1201,13 +1222,10 @@ footer {
     z-index: 1;
     width: 100%;
     text-align: center;
-    display: none;
+
   }
 
-
-
-  ul#nav-menu-list {
-
+  ul.collapse2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1216,6 +1234,9 @@ footer {
     padding: 0;
 
   }
+
+
+
 
 
   button#nav-menu-toggler {
