@@ -1909,7 +1909,7 @@ div.copyright {
 
   .portfolio-card {
     width: 32em;
-    height: 60em;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1971,6 +1971,7 @@ div.copyright {
   .portfolio-context-img {
     max-width: 100%;
     max-height: 100%;
+
   }
 
 
